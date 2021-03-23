@@ -1,0 +1,24 @@
+name: vi
+channels:
+  - fastai
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - pylint
+  - rope
+  - nodejs
+  - nbdev
+  - pytorch>=1.7.1
+  - torchvision
+  - fastai>=2.2.5
+  - matplotlib
+  - seaborn
+  - spacy
+  - wandb
+  - pip
+  - pip:
+    - torchsummary
