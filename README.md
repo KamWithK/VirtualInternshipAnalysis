@@ -14,6 +14,9 @@ To install and use `environment.yaml` do the following:
 *For an update the above isn't necessary - simply run `conda update --all` for packages and `conda update -n base -c defaults conda` for conda itself!*
 
 ## Developer Instructions
+### Training Spacy Models
+Run `python -m spacy train config/model.cfg` (where `model` is replaced by its name, like `tok2vec` or `transformer`)
+
 ### Tracking Experiments with Weights and Biases
 To log your experiments to Weights and Biases, log into your account through the command `wandb login` using an [API key](https://app.wandb.ai/authorize).
 Once you've done this you're ready to run your code.
