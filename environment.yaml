@@ -20,9 +20,10 @@ dependencies:
   - spacy
   - cupy
   - wordcloud
+  - python-Levenshtein
   - wandb
   - pip
   - pip:
+    - imbalanced-learn
     - torchsummary
     - gensim
-    - imbalanced-learn
