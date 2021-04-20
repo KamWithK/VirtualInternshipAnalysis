@@ -25,3 +25,4 @@ dependencies:
   - pip:
     - torchsummary
     - gensim
+    - imbalanced-learn
