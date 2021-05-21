@@ -27,3 +27,4 @@ dependencies:
     - imbalanced-learn
     - torchsummary
     - gensim
+    - xgboost
